@@ -22,32 +22,36 @@
     <link rel="stylesheet" href="./assets/stylesheet.css" />
     <title>Weather Tracker App</title>
   </head>
+
   <body>
 
     <!-- The Header will welcome folks to the App-->
-    <header>
-
-    </header>
+    <nav class = "navbar  navbar-dark bg-dark">Weather Tracker</nav>
 
     <!-- The main will be the big container of the app, it will have two bigger sections contained within it-->
-    <main>
-        <!-- The first column will contain a jquery autocomplete widget connected to a javascript 
-            variable with every major city in the United States. Below that will be a field of buttonds with the
+    <main class ="d-flex col-12" id="main">
+        <!-- The first column will contain a bootstrap submit form that will allow for the input of a city and 
+          fetch the . Below that will be a field of buttonds with the
             previously chosen cities (allowing for a quick research). There will also be a clear function. -->
-    <div>
-        <div class = "ui-widget">
-            <label for="tags">
-            <input id="tags">
-            </label>
-
-        </div>
-    </div>
+      <div class = "d-flex col-4 flex-column">
+        <h3 class ="text-muted m-2" ><strong>Search For A City :</strong></h3>
+        <form class="d-flex flex-column" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search for a City" aria-label="Search" id ="citysearch">
+          <button type="submit" class="btn btn-outline-success m-3" id ="citysubmit">Submit</button>
+        </form>
+        <ul class = "d-flex flex-column list-group" id = "oldcitylist">
+        </ul>
+      </div>
         <!-- The second column will contain two additional boxes.  Display the Current Date and Time! Also it will 
         show the currently chosen city and relevant weather information. The second box will contain five smaller cards of 
         the weather patterns over the next 5 days!-->
+      <div class = "d-flex col-8 flex-column" id = "weather-box">
+        <h3 class ="text-muted m-2 text-center" id = "todayforecast"><strong>Today's Forecast</strong></h3>
+        <h3 class ="text-muted m-2 text-center" id = "5dayforecast"><strong>5 Day Forecast</strong></h3>
+      </div>
+      
+
     </main>
-
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
@@ -56,7 +60,6 @@
       crossorigin="anonymous">
     </script>
     <script src="./assets/cities.js"></script>
-    <script src="./assets/script.js"></script>
 
   </body>
 </html>
