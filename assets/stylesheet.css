@@ -1,0 +1,59 @@
+.navbar {
+    color: aliceblue;
+    background-image: linear-gradient(to right, #100e0e , #1400ff);
+    font-size: 3em;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.27); 
+}
+
+
+.forecast-weather{
+    background-color: #0d027e;
+    color:aliceblue
+}
+
+.fa-cloud{
+    color: rgb(196, 196, 196);
+    text-shadow: 1px 1px 3px black;
+}
+
+.fa-bolt{
+    color: rgb(255, 251, 34);
+    text-shadow: 1px 1px 3px black;
+}
+
+.cloud-sun-rain{
+    color: rgb(196, 196, 196);
+    text-shadow: 1px 1px 3px black;
+}
+
+.fa-cloud-showers-heavy{
+    color: rgb(96, 96, 96);
+    text-shadow: 1px 1px 3px black;
+}
+
+.fa-cloud-meatball{
+    color: rgb(224, 224, 224);
+    text-shadow: 1px 1px 3px black;
+
+}
+
+.fa-sun{
+    color: rgb(255, 181, 34);
+    text-shadow: 1px 1px 3px black;
+}
+
+#citysearch {
+    font-size: 2em;
+}
+
+#citysubmit{
+    background-color: rgb(163, 243, 163);
+}
+#citysubmit:hover{
+    background-color: rgb(20, 99, 20);
+    color:aliceblue
+}
