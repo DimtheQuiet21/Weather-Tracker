@@ -27,8 +27,11 @@ N/A
 To use the Weather Tracker, follow these steps:
 
 1). Enter in your desired city into the search bar.
+
 2). Hit Enter or click the Submit Button!
+
 3). Enjoy reading the Weather!
+
 4). If you want to cycle back to an earlier city, just click on it's name in the search bar.
 
 ## Credits
