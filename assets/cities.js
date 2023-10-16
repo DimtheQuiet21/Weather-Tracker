@@ -18,7 +18,7 @@ function getcities(event){
     var city = citysearch.val();
     var forecast = [];
     var weatherAPIkey = "appid=e3c5b25dd932928fc924b1bdac74c070"
-    var requestURL = "http://api.openweathermap.org/geo/1.0/direct?q="+city+"&limit=1&"+weatherAPIkey;
+    var requestURL = "https://api.openweathermap.org/geo/1.0/direct?q="+city+"&limit=1&"+weatherAPIkey;
    
     function consolecommand (){
       console.log(requestURL);
